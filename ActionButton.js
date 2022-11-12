@@ -2,7 +2,7 @@ import React, { Component, useState, useRef, useEffect } from "react";
 import PropTypes from "prop-types";
 import {
   StyleSheet,
-  Text,
+  TextPropTypes,
   View,
   Animated,
   TouchableOpacity
@@ -335,7 +335,7 @@ ActionButton.propTypes = {
   bgColor: PropTypes.string,
   bgOpacity: PropTypes.number,
   buttonColor: PropTypes.string,
-  buttonTextStyle: Text.propTypes.style,
+  buttonTextStyle: TextPropTypes,
   buttonText: PropTypes.string,
 
   offsetX: PropTypes.number,
